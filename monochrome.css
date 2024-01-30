@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles based on the provided page class */
+.monochrome .masthead {
+    background-color: #333;
+    color: #fff;
+}
+
+.monochrome h2 span {
+    color: #333;
+}
+
+.monochrome p {
+    color: #999;
+}
+
+.monochrome a {
+    color: #333;
+}
+
+.monochrome .btn-1 {
+    background-color: #555;
+    color: #fff;
+}
+
+.monochrome .btn-2 {
+    background-color: #777;
+    color: #fff;
+}
+
+.monochrome .col-2 > div {
+    position: relative;
+}
+
+.monochrome .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.monochrome .g-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.monochrome .col-3 > div {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.monochrome .fa-solid {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.monochrome .spacer {
+    height: 20px;
+}
+
+.monochrome .space-primary {
+    height: 40px;
+}
+
+.monochrome .space-secondary {
+    height: 30px;
+}
+
+/* Add more styles as needed based on your design */
