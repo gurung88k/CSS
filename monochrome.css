@@ -1,10 +1,10 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply styles based on the provided page class */
+
 .monochrome .masthead {
     background-color: #333;
     color: #fff;
@@ -74,4 +74,4 @@ body, h1, h2, h3, p {
     height: 30px;
 }
 
-/* Add more styles as needed based on your design */
+
