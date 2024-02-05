@@ -1,77 +1,78 @@
+/** Monochrome **/
+/*
+** Colors:
+** #0E0E0E (Main)
+** #282828 (Accent)
+** #F8F8F8 (Accent)
+*/
 
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+.monochrome header menu li:hover a{
+    color: #282828;
+    text-decoration: underline;
 }
 
-
-.monochrome .masthead {
-    background-color: #333;
-    color: #fff;
+.monochrome .masthead{
+    background-image: url("../img/img-3.jpg");
 }
 
-.monochrome h2 span {
-    color: #333;
+.monochrome .masthead > div{
+    background: #0E0E0E;
 }
 
-.monochrome p {
-    color: #999;
+.monochrome .masthead h1{
+    font-size: 4em;
+    color: #F8F8F8;
+    text-shadow: 4px 3px 4px rgba(14,14,14,.6);
 }
 
-.monochrome a {
-    color: #333;
+.monochrome section:nth-child(2){
+    padding: 5%;
 }
 
-.monochrome .btn-1 {
-    background-color: #555;
-    color: #fff;
+.monochrome section:nth-child(2) > h2{
+    color: #0E0E0E;
+    font-size: 26px;
 }
 
-.monochrome .btn-2 {
-    background-color: #777;
-    color: #fff;
+.monochrome section:nth-child(2) > h2 span{
+    color: #282828;
+    font-size: 32px;
 }
 
-.monochrome .col-2 > div {
-    position: relative;
+.monochrome section:nth-child(3) > div:nth-child(1){
+    background-image: url("../img/img-4.jpg");
+    background-size: cover;
+    background-position: right;
 }
 
-.monochrome .mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.monochrome section:nth-child(3) > div:nth-child(2){
+    padding: 5%;
 }
 
-.monochrome .g-row {
+.monochrome section:nth-child(4) > div{
+    padding: 5%;
     display: flex;
-    justify-content: space-between;
-}
-
-.monochrome .col-3 > div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 20px;
-    color: #555;
+    min-height: 350px;
 }
 
-.monochrome .fa-solid {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
+.monochrome section:nth-child(4) h4{
+    font-size: 26px;
 }
 
-.monochrome .spacer {
-    height: 20px;
+.monochrome section:nth-child(4) i{
+    font-size: 38px;
 }
 
-.monochrome .space-primary {
-    height: 40px;
+.monochrome section:nth-child(4) > div:nth-child(odd){
+    background-color: #282828;
+    color: #F8F8F8;
 }
 
-.monochrome .space-secondary {
-    height: 30px;
+.monochrome section:nth-child(4) > div:nth-child(even){
+    background-color: #0E0E0E;
+    color: #F8F8F8;
 }
-
-
